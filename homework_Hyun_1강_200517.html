@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang='en'>
+<head>
+        <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+<style>
+    .carousel-inner {
+        width: 400px;
+        margin: 10px auto;
+        color: red;
+        font-weight: bold;
+    }
+    #carouselExampleSlidesOnly {
+        width: 300px;
+        margin: 10px auto;
+    }
+    .itemName {
+            font-size: 50px;
+            font-weight: bold;
+            color: blue;
+        }
+        
+    .itemPrice {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: violet;
+        }
+    .remainingNoOfItem {
+            font-size: 10px;
+            margin-bottom: 20px;
+            color: black;
+        }
+    .d-block w-100 {
+        height: 200px;
+    }
+</style>
+<title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+    <script>
+        
+    </script>
+    <script>
+
+    </script>
+</head>
+<body>
+    <!-- <div class="jumbotron">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    <button type="button" class="btn btn-primary">
+        Profile <span class="badge badge-light">9</span>
+        <span class="sr-only">unread messages</span>
+        </button>
+    <button type="button" class="btn btn-warning">Warning</button> -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <h1 class='item_name'>piano1</h1>
+            <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT-PNY1ZCAzDubqUF3I493FWnfv38mdUsKE-GjjmE5-8ow2OeGU&usqp=CAU" alt="First slide">
+            </div>
+            <div class="carousel-item">
+            <h1>piano2</h1>
+            <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTx7gPuLAKbt8H6010wqlmuDt24n5YpCA46584d4IZYxQD-vGt9&usqp=CAU" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+            <h1>piano3</h1>
+            <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvnFOGp0KjGseXA1GSrFtsRfQGNd0p_v1uVOD9R3sLpN794cn5&usqp=CAU" alt="Third slide">
+            </div>
+            <div class="user">
+                <div class="userProfilePicture">
+                   <div class="userId">
+                        피아노중개소
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="itemName">
+                Steinway and Sons
+            </div>
+            <div class="itemPrice">
+                가격 : 5억원</span>
+            </div>
+            <div class="remainingNoOfItem">
+                남은수량 : <span>3개</span>
+            </div>
+            <div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">주문자명</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="주문자명을 입력하세요" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="orderDetail">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="inputGroupSelect01">수량</label>
+                    </div>
+                    <select class="custom-select" id="inputGroupSelect01">
+                    <option selected>수량을 선택하세요</option>
+                    <option value="1">1개</option>
+                    <option value="2">2개</option>
+                    <option value="3">3개</option>
+                    <option value="3">4개</option>
+                    </select>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">주소</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="주소를 입력하세요" aria-label="Useradress" aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="basic-addon1">연락처</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="연락처를 입력하세요" aria-label="Usercontact" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="orderButton">
+                <button type="button" class="btn btn-primary btn-lg" onclick="order()">주문하기</button>
+            </div>
+</body>
+</html>
